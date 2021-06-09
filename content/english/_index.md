@@ -4,7 +4,9 @@ banner:
     enable: true
     label: Contact With Us
     link: contact
-  content: The academic world is
+  content: Research outputs comes with an author list. The tenzing tooling will help
+    you document contributorship during a project and produce the right output needed
+    to enter the information in your manuscript or repository of choice.
   image: images/banner-art.svg
   title: Towards using contributor lists in research outputs
 call_to_action:
