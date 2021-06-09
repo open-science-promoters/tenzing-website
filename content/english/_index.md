@@ -4,21 +4,20 @@ banner:
     enable: true
     label: Contact With Us
     link: contact
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim
-    maxime corporis cumque <br> totam aliquid nam sint inventore optio modi neque
-    laborum officiis necessitatibus
+  content: The academic world is
   image: images/banner-art.svg
-  title: Let us solve your critical website <br> development challenges
+  title: Towards using contributor lists in research outputs
 call_to_action:
   button:
     enable: true
-    label: Contact Us
-    link: contact
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-    eget amet, tempus eu at consecttur.
+    label: Get started with tenzing
+    link: startguide
+  content: Research outputs comes with an author list. The tenzing tooling will help
+    you document contributorship during a project and produce the right output needed
+    to enter the information in your manuscript or repository of choice.
   enable: true
   image: images/cta.svg
-  title: Ready to get started?
+  title: Towards using contributor lists in research outputs
 feature:
   enable: true
   feature_item:
@@ -51,7 +50,7 @@ service:
   - button:
       enable: true
       label: Check it out
-      link: '#'
+      link: "#"
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
       eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
       sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
@@ -65,7 +64,7 @@ service:
   - button:
       enable: true
       label: Check it out
-      link: '#'
+      link: "#"
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
       eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
       sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
@@ -77,7 +76,7 @@ service:
   - button:
       enable: true
       label: Check it out
-      link: '#'
+      link: "#"
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
       eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
       sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
@@ -89,7 +88,7 @@ service:
   - button:
       enable: true
       label: Check it out
-      link: '#'
+      link: "#"
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
       eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
       sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
@@ -98,4 +97,5 @@ service:
     images:
     - images/service-3.png
     title: A company standing different from others
+
 ---
