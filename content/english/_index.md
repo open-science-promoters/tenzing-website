@@ -20,11 +20,11 @@ call_to_action:
   image: images/cta.svg
   title: Give us feedback
 feature:
-  enable: true
+  enable: false
   feature_item:
-  - content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
+  - content: 'Get the template spreadsheet '
     icon: fas fa-code
-    name: Clean Code
+    name: Create the contributions_sheet
   - content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
     icon: fas fa-object-group
     name: Object Oriented
@@ -44,7 +44,7 @@ feature:
 screenshot:
   enable: true
   image: images/screenshot.svg
-  title: Experience the best <br> workflow with us
+  title: 'Easy '
 service:
   enable: true
   service_item:
