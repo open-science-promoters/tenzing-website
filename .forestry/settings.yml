@@ -10,6 +10,11 @@ sections:
   create: all
   match: "**/*"
 - type: directory
+  path: data
+  label: homepage
+  create: all
+  match: "**/*"
+- type: directory
   path: content/post
   label: Post
   create: all
