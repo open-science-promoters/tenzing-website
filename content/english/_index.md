@@ -2,8 +2,8 @@
 banner:
   button:
     enable: true
-    label: Contact With Us
-    link: contact
+    label: Start now !
+    link: startguide
   content: Research outputs comes with an author list. The tenzing tooling will help
     you document contributorship during a project and produce the right output needed
     to enter the information in your manuscript or repository of choice.
