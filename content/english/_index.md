@@ -14,12 +14,11 @@ call_to_action:
     enable: true
     label: Get started with tenzing
     link: startguide
-  content: Research outputs comes with an author list. The tenzing tooling will help
-    you document contributorship during a project and produce the right output needed
-    to enter the information in your manuscript or repository of choice.
+  content: We are eager to get a better tool availabe, please indicate any changes
+    you would like to see !
   enable: true
   image: images/cta.svg
-  title: Towards using contributor lists in research outputs
+  title: Give us feedback
 feature:
   enable: true
   feature_item:
