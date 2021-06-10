@@ -43,7 +43,8 @@ menu:
     url: mailto:your@email.com
     weight: "4"
 params:
-  about_us: "<p>WE are researchers</p>"
+  about_us: "<p>We are researchers interested in facilitating the use of credit contribution
+    in scholarly communication.</p>"
   address: ''
   author: Tenzing team
   carousel:
