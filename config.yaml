@@ -1,3 +1,4 @@
+---
 baseurl: https://example.org
 title: Universal
 theme: hugo-universal-theme
@@ -5,104 +6,106 @@ languageCode: en-us
 defaultContentLanguage: en
 disqusShortname: devcows
 googleAnalytics: ''
-paginate: 10
+paginate: "10"
 menu:
   main:
-    - identifier: home
-      name: Home
-      url: /
-      weight: 1
-    - identifier: blog
-      name: Blog
-      url: /blog/
-      weight: 2
-    - identifier: faq
-      name: FAQ
-      url: /faq/
-      weight: 3
-    - identifier: contact
-      name: Contact
-      url: /contact/
-      weight: 4
+  - identifier: home
+    name: Home
+    url: "/"
+    weight: "1"
+  - identifier: blog
+    name: Blog
+    url: "/blog/"
+    weight: "2"
+  - identifier: faq
+    name: FAQ
+    url: "/faq/"
+    weight: "3"
+  - identifier: contact
+    name: Contact
+    url: "/contact/"
+    weight: "4"
   topbar:
-    - name: GitHub
-      pre: <i class='fab fa-2x fa-github'></i>
-      url: https://github.com/devcows/hugo-universal-theme
-      weight: 1
-    - name: Facebook
-      pre: <i class='fab fa-2x fa-facebook'></i>
-      url: http://facebook.com
-      weight: 2
-    - name: Twitter
-      pre: <i class='fab fa-2x fa-twitter'></i>
-      url: http://twitter.com
-      weight: 3
-    - name: Email
-      pre: <i class='fas fa-2x fa-envelope'></i>
-      url: mailto:your@email.com
-      weight: 4
+  - name: GitHub
+    pre: "<i class='fab fa-2x fa-github'></i>"
+    url: https://github.com/devcows/hugo-universal-theme
+    weight: "1"
+  - name: Facebook
+    pre: "<i class='fab fa-2x fa-facebook'></i>"
+    url: http://facebook.com
+    weight: "2"
+  - name: Twitter
+    pre: "<i class='fab fa-2x fa-twitter'></i>"
+    url: http://twitter.com
+    weight: "3"
+  - name: Email
+    pre: "<i class='fas fa-2x fa-envelope'></i>"
+    url: mailto:your@email.com
+    weight: "4"
 params:
-  about_us: <p>WE are researchers</p>
-  address: ""
+  about_us: "<p>We are researchers interested in facilitating the use of credit contribution
+    in scholarly communication.</p>"
+  address: ''
   author: Tenzing team
   carousel:
-    enable: yes
+    enable: true
   clients:
-    enable: no
+    enable: false
     subtitle: ''
     title: Our Clients
   clients2:
-    enable: yes
+    enable: true
     subtitle: ''
-    title1: How to use Tenzing
+    title1: 'Tenzing use:'
     title2: A 3 steps process
-  contact_form_ajax: no
-  copyright: Copyright (c) 2015 - 2016, YourCompany; all rights reserved.
+  contact_form_ajax: false
+  copyright: Copyright (c) 2021 Tenzing team
   date_format: January 2, 2006
   default_sharing_image: img/sharing-default.png
   defaultDescription: Site template made by devcows using hugo
   defaultKeywords:
-    - devows
-    - hugo
-    - go
-  enableGoogleMaps: yes
+  - devows
+  - hugo
+  - go
+  enableGoogleMaps: true
   facebook_site: ''
   features:
-    enable: no
+    enable: false
   formspree_action: https://formspree.io/sample/of/endpoint
   googleMapsApiKey: AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y
-  latitude: '-12.043333'
+  latitude: "-12.043333"
   logo: img/logo.png
   logo_small: img/logo-small.png
-  longitude: '-77.028333'
+  longitude: "-77.028333"
   mainSections: blog
   recent_posts:
-    enable: yes
-    subtitle:
+    enable: true
+    subtitle: 
     title: News from the team.
   see_more:
-    enable: yes
+    enable: true
     icon: far fa-file-alt
-    link_text: "What is credit?"
-    link_url: 'http://credit.niso.org/'
-    subtitle: Our tooling allow you to use the Credit taxonomy to report contribution of your research outputs.
+    link_text: What is credit?
+    link_url: http://credit.niso.org/
+    subtitle: Our tooling allow you to use the Credit taxonomy to report contribution
+      of your research outputs.
     title: Making contribution computer readable
   style: pink
   testimonials:
-    enable: yes
+    enable: true
     subtitle: What does researchers using Tenzing say.
     title: Testimonials
   topbar:
-    enable: no
+    enable: false
     text: "<p class=\"hidden-sm hidden-xs\">Contact us on +420 777 555 333 or hello@universal.com.</p>\n
       \     <p class=\"hidden-md hidden-lg\"><a href=\"#\" data-animate-hover=\"pulse\"><i
       class=\"fas fa-phone\"></i></a>\n      <a href=\"#\" data-animate-hover=\"pulse\"><i
       class=\"fas fa-envelope\"></i></a>\n      </p>\n      "
   twitter_site: GoHugoIO
-  viewMorePostLink: /blog/
+  viewMorePostLink: "/blog/"
   widgets:
-    categories: yes
-    search: yes
-    tags: yes
+    categories: true
+    search: true
+    tags: true
 permalinks:
-  blog: /blog/:year/:month/:day/:filename/
+  blog: "/blog/:year/:month/:day/:filename/"
