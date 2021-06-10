@@ -55,7 +55,7 @@ params:
   clients2:
     enable: true
     subtitle: ''
-    title1: How to use Tenzing
+    title1: 'Tenzing use:'
     title2: A 3 steps process
   contact_form_ajax: false
   copyright: Copyright (c) 2021 Tenzing team
