@@ -26,14 +26,16 @@
                     <li class="item" title="{{ .name }}">
                         {{ if .url }}
                           <a href="{{ .url }}">
-                            
+
+                            <p class="lead"> {{ .name }}</p>
                             <img src="{{ .Site.BaseURL }}{{ .image }}" alt="{{ .name }}" class="img-responsive"  />
-                           <p class="lead"> {{ .name }}</p>
+
                           </a>
                         {{ else }}
-                        
-                          <img src="{{ .Site.BaseURL }}{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+
                           <p class="lead"> {{ .name }}</p>
+                          <img src="{{ .Site.BaseURL }}{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+
                         {{ end }}
                     </li>
                     {{ end }}
