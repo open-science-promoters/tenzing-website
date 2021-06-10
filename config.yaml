@@ -42,18 +42,20 @@ menu:
       url: mailto:your@email.com
       weight: 4
 params:
-  about_us: <p>Pellentesque habitant morbi tristique senectus et netus et malesuada
-    fames ac turpis egestas.</p>
-  address: "<p class=\"text-uppercase\"><strong>Universal Ltd.</strong>\n        <br>13/25
-    New Avenue\n        <br>Newtown upon River\n        <br>45Y 73J\n        <br>England\n
-    \       <br>\n        <strong>Great Britain</strong>\n      </p>\n      "
-  author: DevCows
+  about_us: <p>WE are researchers</p>
+  address: ""
+  author: Tenzing team
   carousel:
     enable: yes
   clients:
-    enable: yes
+    enable: no
     subtitle: ''
     title: Our Clients
+  clients2:
+    enable: yes
+    subtitle: ''
+    title1: How to use Tenzing
+    title2: A 3 steps process
   contact_form_ajax: no
   copyright: Copyright (c) 2015 - 2016, YourCompany; all rights reserved.
   date_format: January 2, 2006
@@ -66,7 +68,7 @@ params:
   enableGoogleMaps: yes
   facebook_site: ''
   features:
-    enable: yes
+    enable: no
   formspree_action: https://formspree.io/sample/of/endpoint
   googleMapsApiKey: AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y
   latitude: '-12.043333'
@@ -76,28 +78,22 @@ params:
   mainSections: blog
   recent_posts:
     enable: yes
-    subtitle: Pellentesque habitant morbi tristique senectus et netus et malesuada
-      fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,
-      tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-      ultricies mi vitae est. Mauris placerat eleifend leo.
-    title: From our blog
+    subtitle:
+    title: News from the team.
   see_more:
     enable: yes
     icon: far fa-file-alt
-    link_text: Check other homepages
-    link_url: '#'
-    subtitle: We have prepared for you more than 40 different HTML pages, including
-      5 variations of homepage.
-    title: Do you want to see more?
-  style: default
+    link_text: "What is credit?"
+    link_url: 'http://credit.niso.org/'
+    subtitle: Our tooling allow you to use the Credit taxonomy to report contribution of your research outputs.
+    title: Making contribution computer readable
+  style: pink
   testimonials:
     enable: yes
-    subtitle: We have worked with many clients and we always like to hear they come
-      out from the cooperation happy and satisfied. Have a look what our clients said
-      about us.
+    subtitle: What does researchers using Tenzing say.
     title: Testimonials
   topbar:
-    enable: yes
+    enable: no
     text: "<p class=\"hidden-sm hidden-xs\">Contact us on +420 777 555 333 or hello@universal.com.</p>\n
       \     <p class=\"hidden-md hidden-lg\"><a href=\"#\" data-animate-hover=\"pulse\"><i
       class=\"fas fa-phone\"></i></a>\n      <a href=\"#\" data-animate-hover=\"pulse\"><i
