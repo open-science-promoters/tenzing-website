@@ -1,9 +1,7 @@
 weight: 2
-title: "Tenzing: Report contributorship made easy"
+title: "About this project"
 description: >
   <ul class="list-style-none">
-     <li>A spreadsheet template to record contributors information</li>
-     <li>An app to transform the spreadsheet into usable chunks of text for your manuscript</li>
-     <li>Toward importing author list directly into publication system</li>
+     The app is named after the nepali-indian sherpa who made it to the Everest, but is nearly never mentionned.
    </ul>
-image: "img/carousel/template-homepage.png"
+image: "img/carousel/template-tablets.png"
