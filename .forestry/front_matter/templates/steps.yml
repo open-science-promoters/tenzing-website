@@ -1,0 +1,252 @@
+---
+label: steps
+hide_body: true
+fields:
+- type: text
+  name: baseurl
+  label: baseurl
+- type: text
+  name: title
+  label: title
+- type: text
+  name: theme
+  label: theme
+- type: text
+  name: languageCode
+  label: languageCode
+- type: text
+  name: defaultContentLanguage
+  label: defaultContentLanguage
+- type: text
+  name: disqusShortname
+  label: disqusShortname
+- type: text
+  name: googleAnalytics
+  label: googleAnalytics
+- type: number
+  name: paginate
+  label: paginate
+- type: field_group
+  name: menu
+  label: menu
+  fields:
+  - type: field_group_list
+    name: main
+    label: main
+    fields:
+    - type: text
+      name: identifier
+      label: identifier
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: url
+      label: url
+    - type: number
+      name: weight
+      label: weight
+  - type: field_group_list
+    name: topbar
+    label: topbar
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: pre
+      label: pre
+    - type: text
+      name: url
+      label: url
+    - type: number
+      name: weight
+      label: weight
+- type: field_group
+  name: params
+  label: params
+  fields:
+  - type: textarea
+    name: about_us
+    label: about_us
+  - type: text
+    name: address
+    label: address
+  - type: text
+    name: author
+    label: author
+  - type: field_group
+    name: carousel
+    label: carousel
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+  - type: field_group
+    name: clients
+    label: clients
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: subtitle
+      label: subtitle
+    - type: text
+      name: title
+      label: title
+  - type: field_group
+    name: clients2
+    label: clients2
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: subtitle
+      label: subtitle
+    - type: text
+      name: title1
+      label: title1
+    - type: text
+      name: title2
+      label: title2
+  - type: boolean
+    name: contact_form_ajax
+    label: contact_form_ajax
+  - type: text
+    name: copyright
+    label: copyright
+  - type: text
+    name: date_format
+    label: date_format
+  - type: file
+    name: default_sharing_image
+    label: default_sharing_image
+  - type: text
+    name: defaultDescription
+    label: defaultDescription
+  - type: list
+    name: defaultKeywords
+    label: defaultKeywords
+  - type: boolean
+    name: enableGoogleMaps
+    label: enableGoogleMaps
+  - type: text
+    name: facebook_site
+    label: facebook_site
+  - type: field_group
+    name: features
+    label: features
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+  - type: text
+    name: formspree_action
+    label: formspree_action
+  - type: text
+    name: googleMapsApiKey
+    label: googleMapsApiKey
+  - type: text
+    name: latitude
+    label: latitude
+  - type: file
+    name: logo
+    label: logo
+  - type: file
+    name: logo_small
+    label: logo_small
+  - type: text
+    name: longitude
+    label: longitude
+  - type: text
+    name: mainSections
+    label: mainSections
+  - type: field_group
+    name: recent_posts
+    label: recent_posts
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: subtitle
+      label: subtitle
+    - type: text
+      name: title
+      label: title
+  - type: field_group
+    name: see_more
+    label: see_more
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: icon
+      label: icon
+    - type: text
+      name: link_text
+      label: link_text
+    - type: text
+      name: link_url
+      label: link_url
+    - type: text
+      name: subtitle
+      label: subtitle
+    - type: text
+      name: title
+      label: title
+  - type: text
+    name: style
+    label: style
+  - type: field_group
+    name: testimonials
+    label: testimonials
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: subtitle
+      label: subtitle
+    - type: text
+      name: title
+      label: title
+  - type: field_group
+    name: topbar
+    label: topbar
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: textarea
+      name: text
+      label: text
+  - type: text
+    name: twitter_site
+    label: twitter_site
+  - type: text
+    name: viewMorePostLink
+    label: viewMorePostLink
+  - type: field_group
+    name: widgets
+    label: widgets
+    fields:
+    - type: boolean
+      name: categories
+      label: categories
+    - type: boolean
+      name: search
+      label: search
+    - type: boolean
+      name: tags
+      label: tags
+- type: field_group
+  name: permalinks
+  label: permalinks
+  fields:
+  - type: text
+    name: blog
+    label: blog
